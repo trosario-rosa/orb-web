@@ -32,7 +32,7 @@ submit should be your own work; do not use AI to generate the project.
 
 - Include a top navigation bar.
 - At minimum, one entry must navigate to the user management screen.
-- Other entries in the nav can be non-functional placeholders. Thi
+- Other entries in the nav can be non-functional placeholders.
 
 ### User Management Screen
 

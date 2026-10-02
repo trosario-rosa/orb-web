@@ -1,10 +1,9 @@
-import * as React from 'react';
-import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
-import Link from '@mui/material/Link';
-import Slider from '@mui/material/Slider';
-import PopoverMenu from './PopoverMenu';
-import ProTip from './ProTip';
+import Container from "@mui/material/Container"
+import Typography from "@mui/material/Typography"
+import Link from "@mui/material/Link"
+import Slider from "@mui/material/Slider"
+import PopoverMenu from "./PopoverMenu"
+import ProTip from "./ProTip"
 
 function Copyright() {
   return (
@@ -12,17 +11,17 @@ function Copyright() {
       variant="body2"
       align="center"
       sx={{
-        color: 'text.secondary',
+        color: "text.secondary",
       }}
     >
-      {'Copyright © '}
+      {"Copyright © "}
       <Link color="inherit" href="https://mui.com/">
         Your Website
-      </Link>{' '}
+      </Link>{" "}
       {new Date().getFullYear()}
-      {'.'}
+      {"."}
     </Typography>
-  );
+  )
 }
 
 export default function App() {
@@ -35,13 +34,13 @@ export default function App() {
         <Slider
           className="my-4"
           defaultValue={30}
-          classes={{ active: 'shadow-none' }}
-          slotProps={{ thumb: { className: 'hover:shadow-none' } }}
+          classes={{ active: "shadow-none" }}
+          slotProps={{ thumb: { className: "hover:shadow-none" } }}
         />
         <PopoverMenu />
         <ProTip />
         <Copyright />
       </div>
     </Container>
-  );
+  )
 }

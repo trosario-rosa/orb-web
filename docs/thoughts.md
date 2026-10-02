@@ -17,6 +17,8 @@ options:
 I gotta keep in mind this is a `UI Designer / Frontend Developer` role, not generalist/full stack
 Stay within scope, focus frontend until all criteria is met. Only then can I "go beyond"
 
+routing?
+
 Ideas for going beyond:
 - Electron App
 - FastAPI or Flask backend
@@ -30,12 +32,16 @@ Ideas for going beyond:
 I asked if I can use React. Informed that it would be alright, just to remember that the Orbweaver is Angular + Tailwind
 
 Playwright
+https://playwright.dev/docs/intro
 
 Goal: rapid prototype, and then if I have enough time, adapt to using angular + tailwind (unlikely)
 
 Implementation and UI decisions 
 
 Scale and concurrency requirements, pagination
+
+Redux
+https://redux.js.org/toolkit/usage/usage-guide
 
 WCAG 2.2 accessibility guidelines (Level AA)
 https://www.w3.org/TR/WCAG22/

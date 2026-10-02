@@ -65,3 +65,4 @@ My use of AI in this project will be restricted to reference
 | Search                     | Reason                                                                                                                              |
 | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | Enforce LF line ending git | Forgot how it was done. My primary desktop is Windows and my dev laptop is Ubuntu so I usually do this when starting a new project. |
+| Typescript 7 eslint/prettier issues and alternatives | Wanted to try out typescript 7 for this project but my usually setup was unsupported |

@@ -42,3 +42,8 @@ https://www.w3.org/TR/WCAG22/
 
 Optimistic Concurrency
 version as ETag response
+
+------
+
+Using an official mui example rather than one of my boilerplates
+https://github.com/mui/material-ui/tree/master/examples/material-ui-vite-tailwind-ts

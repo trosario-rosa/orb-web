@@ -60,3 +60,6 @@ Playwright Accessibility Testing
 https://playwright.dev/docs/accessibility-testing
 
 Hopefully the time spent on this setup will make everything else a breeze
+
+MUI + Tailwind
+https://mui.com/material-ui/integrations/tailwindcss/tailwindcss-v4/

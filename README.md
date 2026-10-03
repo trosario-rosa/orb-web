@@ -57,10 +57,22 @@ The application will be available at http://localhost:8080.
 
 ## Testing
 
-Run the test suite:
+Install Playwright Chromium browser the first time:
+
+```bash
+npx playwright install chromium
+```
+
+Run the end-to-end and accessibility tests:
 
 ```bash
 npm run test
+```
+
+Open the HTML report after a test run:
+
+```bash
+npm run test:report
 ```
 
 ## Project Foundation

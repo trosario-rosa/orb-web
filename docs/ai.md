@@ -62,7 +62,8 @@ I've turned off next line suggestion and any other AI features in my IDE
 
 My use of AI in this project will be restricted to reference
 
-| Search                     | Reason                                                                                                                              |
-| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| Enforce LF line ending git | Forgot how it was done. My primary desktop is Windows and my dev laptop is Ubuntu so I usually do this when starting a new project. |
-| Typescript 7 eslint/prettier issues and alternatives | Wanted to try out typescript 7 for this project but my usually setup was unsupported |
+| Search                                               | Reason                                                                                                                              |
+| ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Enforce LF line ending git                           | Forgot how it was done. My primary desktop is Windows and my dev laptop is Ubuntu so I usually do this when starting a new project. |
+| Typescript 7 eslint/prettier issues and alternatives | Wanted to try out typescript 7 for this project but my usual setup was unsupported                                                  |
+| frameworks for WCAG accessibility coverage testing   | Was interested in seeing what accessibility test automation existed, even if it doesnt cover all cases. Also looked into latest playwright testing framework convention |

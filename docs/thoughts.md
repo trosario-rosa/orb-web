@@ -53,3 +53,10 @@ version as ETag response
 
 Using an official mui example rather than one of my boilerplates
 https://github.com/mui/material-ui/tree/master/examples/material-ui-vite-tailwind-ts
+
+Instead of using ESLint + Prettier setup gonna give Biome a try. I want to try out the advantages of typescript 7
+
+Playwright Accessibility Testing
+https://playwright.dev/docs/accessibility-testing
+
+Hopefully the time spent on this setup will make everything else a breeze

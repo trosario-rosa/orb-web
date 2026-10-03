@@ -1,11 +1,12 @@
 import { Button } from "@mui/material"
-import { PAGES } from "./navigation"
+import { PAGES } from "../../app/navigation"
+import { NavLink } from "react-router"
 
 export default function DesktopNavigation() {
   return (
     <nav className="hidden flex-1 md:flex">
-      {PAGES.map(({ label, href }) => (
-        <Button key={label} href={href} color="inherit">
+      {PAGES.map(({ label, to }) => (
+        <Button component={NavLink} key={label} to={to} color="inherit">
           {label}
         </Button>
       ))}

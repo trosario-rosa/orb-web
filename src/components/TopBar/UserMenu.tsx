@@ -1,6 +1,7 @@
 import { Avatar, IconButton, Menu, MenuItem, Tooltip } from "@mui/material"
-import { SETTINGS } from "./navigation"
+import { SETTINGS } from "../../app/navigation"
 import { useMenuAnchor } from "../../hooks/useMenuAnchor"
+import { NavLink } from "react-router"
 
 const USER = { name: "Remy Sharp", avatarUrl: undefined as string | undefined }
 
@@ -29,8 +30,13 @@ export default function UserMenu() {
         anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
         transformOrigin={{ vertical: "top", horizontal: "right" }}
       >
-        {SETTINGS.map(({ label, href }) => (
-          <MenuItem key={label} component="a" href={href} onClick={menu.close}>
+        {SETTINGS.map(({ label, to }) => (
+          <MenuItem
+            key={label}
+            component={NavLink}
+            to={to}
+            onClick={menu.close}
+          >
             {label}
           </MenuItem>
         ))}

@@ -1,22 +1,18 @@
 import { Typography, Link } from "@mui/material"
+import { Link as RouterLink } from "react-router"
 
 interface FooterLinkProps {
   label: string
-  href: string
+  to: string
   prefix?: string
   suffix?: string
 }
 
-function FooterLink({ label, href, prefix, suffix }: FooterLinkProps) {
+function FooterLink({ label, to, prefix, suffix }: FooterLinkProps) {
   return (
-    <Typography
-      variant="body2"
-      sx={{
-        color: "text.secondary",
-      }}
-    >
+    <Typography variant="body2" color="textSecondary">
       {prefix}
-      <Link color="inherit" href={href}>
+      <Link component={RouterLink} to={to} color="inherit">
         {label}
       </Link>{" "}
       {suffix}
@@ -29,12 +25,13 @@ export default function Footer() {
     <div className="flex items-center justify-center gap-6 py-1">
       <FooterLink
         label={"Orb"}
-        href={"#site"}
+        to={"/"}
         prefix={"Copyright © "}
         suffix={`${new Date().getFullYear()}.`}
       />
-      <FooterLink label={"Privacy Policy"} href={"#privacy"} />
-      <FooterLink label={"Terms of Service"} href={"#terms"} />
+      {/* Below would be better served as MUI Dialogs */}
+      <FooterLink label={"Privacy Policy"} to={"/privacy"} />
+      <FooterLink label={"Terms of Service"} to={"/terms"} />
     </div>
   )
 }

@@ -1,7 +1,8 @@
 import { IconButton, Menu, MenuItem } from "@mui/material"
 import MenuIcon from "@mui/icons-material/Menu"
 import { useMenuAnchor } from "../../hooks/useMenuAnchor"
-import { PAGES } from "./navigation"
+import { PAGES } from "../../app/navigation"
+import { NavLink } from "react-router"
 
 export default function MobileNavigation() {
   const menu = useMenuAnchor()
@@ -27,8 +28,13 @@ export default function MobileNavigation() {
         anchorOrigin={{ vertical: "bottom", horizontal: "left" }}
         transformOrigin={{ vertical: "top", horizontal: "left" }}
       >
-        {PAGES.map(({ label, href }) => (
-          <MenuItem key={label} component="a" href={href} onClick={menu.close}>
+        {PAGES.map(({ label, to }) => (
+          <MenuItem
+            key={label}
+            component={NavLink}
+            to={to}
+            onClick={menu.close}
+          >
             {label}
           </MenuItem>
         ))}

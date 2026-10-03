@@ -17,8 +17,6 @@ options:
 I gotta keep in mind this is a `UI Designer / Frontend Developer` role, not generalist/full stack
 Stay within scope, focus frontend until all criteria is met. Only then can I "go beyond"
 
-routing?
-
 Ideas for going beyond:
 - Electron App
 - FastAPI or Flask backend
@@ -63,3 +61,6 @@ Hopefully the time spent on this setup will make everything else a breeze
 
 MUI + Tailwind
 https://mui.com/material-ui/integrations/tailwindcss/tailwindcss-v4/
+
+React Router Data Loading: Data Mode
+https://reactrouter.com/start/modes#data

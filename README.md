@@ -4,8 +4,6 @@ Administration application for managing users with a clean, working, well-built 
 
 ## Prerequisites
 
-Make sure the following installed:
-
 - node v24.10.0
 - npm v11.6.1
 

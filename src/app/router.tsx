@@ -24,7 +24,7 @@ const router = createBrowserRouter([
         path: "tools",
         lazy: {
           Component: () =>
-            import("../features/users/ToolsPage").then((m) => m.default),
+            import("../features/tools/ToolsPage").then((m) => m.default),
         },
         HydrateFallback: LoadingState,
       },

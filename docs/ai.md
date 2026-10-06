@@ -49,7 +49,7 @@ I have used the following harnesses:
 
 ### Favorite Use of AI
 
-GitKraken's AI integration has been the one I have found to be the most
+GitKraken's AI integration has been the one I have found to be the most useful
 
 - The commit message generation is great after tweaking instruction to follow standards
 - Used the context-aware merge conflict resolution a few times and it was also pretty good
@@ -58,12 +58,14 @@ GitKraken's AI integration has been the one I have found to be the most
 
 > You may use AI as a reference, but please describe how you used it in your README. The code you submit should be your own work; do not use AI to generate the project.
 
-I've turned off next line suggestion and any other AI features in my IDE
+I've turned off next line suggestion and any other AI features in my IDE. 
 
 My use of AI in this project will be restricted to reference
 
-| Search                                               | Reason                                                                                                                              |
-| ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| Enforce LF line ending git                           | Forgot how it was done. My primary desktop is Windows and my dev laptop is Ubuntu so I usually do this when starting a new project. |
-| Typescript 7 eslint/prettier issues and alternatives | Wanted to try out typescript 7 for this project but my usual setup was unsupported                                                  |
-| frameworks for WCAG accessibility coverage testing   | Was interested in seeing what accessibility test automation existed, even if it doesnt cover all cases. Also looked into latest playwright testing framework convention |
+| Search                                               | Reason                                                                                                                                                                   |
+| ---------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Enforce LF line ending git                           | Forgot how it was done. My primary desktop is Windows and my dev laptop is Ubuntu so I usually do this when starting a new project.                                      |
+| Typescript 7 eslint/prettier issues and alternatives | Wanted to try out typescript 7 for this project but my usual setup was unsupported                                                                                       |
+| frameworks for WCAG accessibility coverage testing   | Was interested in seeing what accessibility test automation existed, even if it doesnt cover all cases. Also looked into latest playwright testing framework convention  |
+| MUI styling to tailwind css                          | Utilized AI to help figure out the interaction quirks between MUI and tailwind in multiple points of this project                                                        |
+| FastAPI/sqlite backend docker setup                  | Wanted to replace the in-memory db with a small test backend. Used AI to help put together the backend and generation tools.                                             | 

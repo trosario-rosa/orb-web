@@ -73,6 +73,15 @@ Open the HTML report after a test run:
 npm run test:report
 ```
 
+## Server
+
+Run the fastapi server:
+
+```bash
+cd backend
+docker compose up --build
+```
+
 ## Project Foundation
 
 This project was bootstrapped using the [Material UI Vite + Tailwind + TypeScript example](https://github.com/mui/material-ui/tree/master/examples/material-ui-vite-tailwind-ts) as a starting point

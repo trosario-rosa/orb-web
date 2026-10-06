@@ -27,3 +27,10 @@ test-results/
 *.sw?
 
 .vscode/settings.json
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+data/
+.verification/

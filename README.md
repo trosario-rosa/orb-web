@@ -2,6 +2,8 @@
 
 A user administration application: a React frontend backed by a FastAPI service.
 
+[Retrospective README](docs/retrospective.md)
+
 ## Prerequisites
 
 - Docker

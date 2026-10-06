@@ -2,7 +2,7 @@ import type { GridFilterModel } from "@mui/x-data-grid"
 import type { Role, UserStatus } from "../../api/types"
 import type { UserQuery } from "../../api/users"
 
-export type UserFilters = Pick<UserQuery, "role" | "status" | "q">
+export type UserFilters = Pick<UserQuery, "role" | "status" | "query">
 
 export const MAX_SEARCH_LENGTH = 254
 

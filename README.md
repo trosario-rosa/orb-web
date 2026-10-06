@@ -1,87 +1,39 @@
 # Orb Web
 
-Administration application for managing users with a clean, working, well-built interface.
+A user administration application: a React frontend backed by a FastAPI service.
 
 ## Prerequisites
 
-- node v24.10.0
-- npm v11.6.1
+- Docker
+- Docker Compose
 
-## Installation
+## Getting Started
 
-Clone the repository and install the project dependencies:
-
-```bash
-npm install
-```
-
-## Development
-
-Start the development server (with hot module reloading):
+Clone the repository, then start the app from the project root:
 
 ```bash
-npm run dev
+docker compose up --build -d
 ```
 
-The development server will be available at http://localhost:5173.
+| Service  | URL                   |
+| -------- | --------------------- |
+| Frontend | http://localhost:5173 |
+| Backend  | http://localhost:8000 |
 
-Run Biome to check the project for lint issues:
+Stop the app:
 
 ```bash
-npm run lint
+docker compose down
 ```
 
-Format supported project files with Biome:
+User data is stored in a Docker volume. Add `--volumes` to the command above to delete it.
 
-```bash
-npm run format
-```
+## Project Structure
 
-To check both formatting and lint rules without modifying files:
+| Path                   | Description                            |
+| ---------------------- | -------------------------------------- |
+| [frontend/](frontend/) | React, TypeScript, Vite and Material UI |
+| [backend/](backend/)   | FastAPI, SQLAlchemy and SQLite          |
+| [docs/](docs/)         | Assignment brief and project notes      |
 
-```bash
-npm run check
-```
-
-## Production
-
-Run the application in production mode:
-
-```
-npm run start
-```
-
-The application will be available at http://localhost:8080.
-
-## Testing
-
-Install Playwright Chromium browser the first time:
-
-```bash
-npx playwright install chromium
-```
-
-Run the end-to-end and accessibility tests:
-
-```bash
-npm run test
-```
-
-Open the HTML report after a test run:
-
-```bash
-npm run test:report
-```
-
-## Server
-
-Run the fastapi server:
-
-```bash
-cd backend
-docker compose up --build
-```
-
-## Project Foundation
-
-This project was bootstrapped using the [Material UI Vite + Tailwind + TypeScript example](https://github.com/mui/material-ui/tree/master/examples/material-ui-vite-tailwind-ts) as a starting point
+To run, lint or test a service without Docker, see its own README.
